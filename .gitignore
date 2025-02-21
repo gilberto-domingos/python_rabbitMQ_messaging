@@ -1,0 +1,50 @@
+# Diretórios de ambientes virtuais
+venv/
+.env/
+.venv/
+
+# Dependências instaladas
+__pycache__/
+*.py[cod]
+
+# Arquivos de log e temporários
+*.log
+*.sqlite3
+*.db
+db.sqlite3
+
+# Configurações do Streamlit
+.streamlit/
+
+# Arquivos de configuração do Python
+*.pyc
+*.pyo
+
+# Configurações do VS Code e IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Configurações do Docker (se aplicável)
+.dockerignore
+
+# Arquivos de segurança
+.env
+.secret
+
+# Arquivos de build
+build/
+dist/
+*.egg-info/
+
+# Arquivos do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Configuração do Ansible (se aplicável)
+*.retry
+
+random_number.py
