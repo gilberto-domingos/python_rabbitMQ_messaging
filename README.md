@@ -1,1 +1,1 @@
-# python_rabbitMQ_messaging
+# Mensageria RabbitMQ com python
