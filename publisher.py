@@ -7,8 +7,8 @@ class RabbitMqPublisher:
     def __init__(self) -> None:
         self.__host = "localhost"
         self.__port = 5672
-        self.__username = "admin"
-        self.__password = "senha_segura"
+        self.__username = "********"
+        self.__password = "********"
         self.__exchange = "data_exchange"
         self.__routing_key = "RK"
         self.__channel = self.__create_channel()
