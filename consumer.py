@@ -5,8 +5,8 @@ class RabbitMqConsumer:
     def __init__(self, callback) -> None:
         self.__host = "localhost"
         self.__port = 5672
-        self.__username = "admin"
-        self.__password = "senha_segura"
+        self.__username = "********"
+        self.__password = "*********"
         self.__queue = "data_queue3"
         self.__callback = callback
         self.__channel = self.__create_channel()

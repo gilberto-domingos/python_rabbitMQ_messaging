@@ -10,8 +10,8 @@ connection_parameters = pika.ConnectionParameters(
     host="localhost",
     port=5672,
     credentials=pika.PlainCredentials(
-        username="admin",
-        password="senha_segura"
+        username="*********",
+        password="*********"
     )
 )
 
