@@ -10,7 +10,7 @@ class RabbitMqPublisher:
         self.__username = "admin"
         self.__password = "senha_segura"
         self.__exchange = "data_exchange"
-        self.__routing_key = ""
+        self.__routing_key = "RK"
         self.__channel = self.__create_channel()
 
     def __create_channel(self):
@@ -38,4 +38,5 @@ class RabbitMqPublisher:
 
 
 rabbitMqPublisher = RabbitMqPublisher()
-rabbitMqPublisher.send_message({"Hello": "World !"})
+rabbitMqPublisher.send_message(
+    {"Hello": "World RK22 x-overflow:reject-publish !!!"})
